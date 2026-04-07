@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedro Schwartz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #0f0f0f;
+            color: white;
+        }
+
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            font-size: 18px;
+        }
+
+        header a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 50px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #aaa;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            background: #1a73e8;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 80px 50px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pedro Schwartz</h1>
+    <div>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </div>
+</header>
+
+<div class="hero">
+    <h2>Desenvolvedor Junior</h2>
+    <p>Focado em criação de sites e desenvolvimento de projetos.</p>
+    <button class="btn">Ver projetos</button>
+</div>
+
+<section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou Dev Jr. apaixonado por tecnologia e criação de interfaces.</p>
+</section>
+
+<section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projects">
+        <div class="card">Projeto 1</div>
+        <div class="card">Projeto 2</div>
+        <div class="card">Projeto 3</div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato: 67 98107-2653</h2>
+    <p>Email: pedroschwartzcg@gmail.com</p>
+</section>
+
+<footer>
+    © 2026 Pedro Schwartz
+</footer>
+
+</body>
+</html>
